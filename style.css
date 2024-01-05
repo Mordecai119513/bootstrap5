@@ -1,0 +1,121 @@
+body{
+    position: relative;
+    /* width: 1440px; */
+    height: 3932px;
+    background: #FFFFFF;
+    background-image: url(/images/BG_Desktop.png);
+    background-size: cover;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+indent-rainbow
+a {
+    text-decoration: none;
+}
+.Ninja_Mail{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: black;
+    margin-left: 0px;
+}
+.bottom-line {
+    background-color: #4ba87d;
+    height: 5px;
+}
+.border-5 {
+    border-width: 5px!important;
+}
+.title {
+    padding-block: 50px 100px;
+}
+.container {
+    max-width: 1180px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.title-photo{
+    position: absolute;
+    transform: translateY(-50%);
+    filter: drop-shadow(0px 3px 16px rgba(0, 0, 0, 0.16));
+}
+.z-1 {
+    z-index: 1!important;
+}
+.z-2 {
+    z-index: 2!important;
+}
+.z-3 {
+    z-index: 3!important;
+}
+.video {
+    background: #F7F7F7;
+    background-position: 0 -150px;
+    mix-blend-mode: normal;
+    padding-block: 130px 180px;
+    background-color: rgba(0, 0, 0, 0.001);
+}
+.sec5 {
+    padding-block: 75px 150px;
+}
+
+@media screen and (max-width:768px) {
+    .title {
+        padding-block: 133px 100px;
+    }
+
+    a.sign-btn {
+        font-size: 12px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .title {
+        padding-block: 100px 50px;
+    }
+
+    .title-photo {
+        position: relative;
+        transform: none;
+        margin-top: 10px;
+    }
+    .list-unstyled{
+        display: none;
+    }
+
+    .sec3 .card1 {
+        padding-right: 93px;
+        margin-bottom: 20px;
+    }
+
+    .sec3 .card2 {
+        padding-left: 93px;
+        margin-bottom: 20px;
+    }
+
+    .sec3-text {
+        width: 72%;
+    }
+
+    .diagonal-section__diagonal {
+        top: 785px;
+        height: 900px;
+        transform: skewY(339deg) translateY(-50%);
+    }
+
+    .nav-link {
+        font-size: 19px;
+    }
+}
